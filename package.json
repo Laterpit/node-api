@@ -1,0 +1,14 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Test api",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Linus Wagberg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
