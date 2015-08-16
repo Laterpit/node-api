@@ -1,0 +1,12 @@
+{
+  "development": {
+    "database_server": "server://dev.server.name",
+    "username": "linus",
+    "password": "password"
+  },
+  "production": {
+    "database_server": "server://prod.server.name",
+    "username": "linus",
+    "password": "password"
+  }
+}
