@@ -7,4 +7,8 @@ router.get('/',function(req,res){
     res.send("Database is located at: " + config.database_server)
 });
 
+router.get('/name',function(req,res){
+    res.send("Username : " + config.username)
+});
+
 module.exports = router;
