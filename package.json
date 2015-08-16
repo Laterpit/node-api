@@ -4,11 +4,24 @@
   "description": "Test api",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "prod": "NODE_ENV=production node server.js"
   },
   "author": "Linus Wagberg",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
-  }
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Laterpit/node-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Laterpit/node-api/issues"
+  },
+  "homepage": "https://github.com/Laterpit/node-api"
 }
