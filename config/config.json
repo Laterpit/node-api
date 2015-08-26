@@ -6,7 +6,11 @@
   },
   "production": {
     "database_server": "server://prod.server.name",
-    "username": "linus",
-    "password": "password"
+    "username": {
+      "firstname":"Viktor",
+      "lastname":"Larsson"
+    },
+    "password": "password",
+    "secret":"test-secret"
   }
 }
