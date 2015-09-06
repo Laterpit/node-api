@@ -11,4 +11,10 @@ router.get('/name',function(req,res){
     res.status(200).json(config.username);
 });
 
+router.put('/name',function(req,res){
+    console.log('test');
+    res.status(200).json({success:true});
+    //Do database stuff typ insert values into table.....
+});
+
 module.exports = router;
